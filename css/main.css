@@ -1,0 +1,40 @@
+.box {
+    background-color: rgb(169, 71, 44);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.logo {
+    height: 20px;
+}
+
+#hero {
+    height: 250px;
+}
+
+.product {
+    height: 100px;
+    text-align: center;
+}
+
+.service {
+    height: 150px;
+}
+
+.footer {
+    height: 100px;
+}
+
+#image {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    #image {display: flex;
+            height:150px;
+            text-align: center;};
+}
